@@ -69,8 +69,3 @@ npm run dev
 This project uses the OpenWeather API:
 
 https://openweathermap.org/api
-
-## 👨‍💻 Author
-
-Yusuf
-
