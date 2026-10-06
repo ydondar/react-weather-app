@@ -97,18 +97,18 @@ input:focus {
   margin-top: 20px;
 }
 
-.city-info,
-.degree-info,
-.weather-info {
+.city-inf,
+.degree-inf,
+.weather-inf {
   margin: 0;
   color: white;
 }
 
-.city-info {
+.city-inf {
   font-size: 36px;
 }
 
-.degree-info {
+.degree-inf {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -120,6 +120,56 @@ input:focus {
   font-size: 60px;
 }
 
-.weather-info {
+.weather-inf {
   font-size: 28px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 500px) {
+  #root {
+    padding: 20px;
+  }
+
+  .weather-container {
+    width: 100%;
+    min-width: unset;
+    min-height: 350px;
+    padding: 16px;
+  }
+
+  .search-box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .search-btn {
+    width: 100%;
+  }
+
+  .result-area {
+    min-height: 160px;
+  }
+
+  .city-inf {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .degree-inf {
+    font-size: 42px;
+  }
+
+  .temp-icon {
+    font-size: 45px;
+  }
+
+  .weather-inf {
+    font-size: 22px;
+    text-align: center;
+  }
 }
